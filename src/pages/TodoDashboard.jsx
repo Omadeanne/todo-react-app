@@ -168,14 +168,14 @@ const TodoDashboard = () => {
 
                     (<>
                         <div className="h-[70vh]">
-                            {todos?.sort((a, b) => b.createdAt - a.createdAt).map(({ id, title, createdAt }) => {
+                            {todos?.sort((a, b) => b.createdAt - a.createdAt).map(({ id, title, createdAt },index) => {
                                 return (
                                     <>
                                         <TodoList
                                             id={id}
                                             title={title}
                                             createdAt={createdAt}
-                                            key={`todo-list-${id}`}
+                                            key={index}
                                             handleEditMode={handleEditMode}
                                             deleteTodo={deleteTodo}
                                         />

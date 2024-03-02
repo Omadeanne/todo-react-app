@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/806ef2ce-5e49-4f46-ab3e-7d6fb91bd452/resourceGroups/chi/providers/Microsoft.Web/sites/todo-reactapp",
+  "appService.deploySubpath": "."
+}
